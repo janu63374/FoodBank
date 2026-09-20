@@ -1,84 +1,140 @@
-# FoodBank
-Food bank is a food review posting site developed in Django. Where user can Register, Login Then add review. User can like review, Update their own profile, Edit their posted review also can delete them. There is a comment system implement for each review.
+# Food Bank Management System
 
-<h2>Requirements</h2>
-<pre>open requirements.txt file to see requirements</pre>
+## 📌 Project Overview
 
-<h2>Installing</h2>
-<pre>open terminal and type</pre>
-<code>git clone https://github.com/devmahmud/FoodBank.git</code><br><br>
+Food Bank Management System is a web-based application developed using Django that helps reduce food waste by connecting food donors with people and organizations in need. The platform provides a centralized system for managing food donations, requests, and user profiles.
 
-<h4>or simply download using the url below</h4>
-<code>https://github.com/devmahmud/FoodBank.git</code><br>
+This project was developed as part of my undergraduate final-year project to demonstrate the use of web technologies for addressing real-world social challenges.
 
-<h2>To migrate the database open terminal in project directory and type</h2>
-<code>python manage.py makemigrations</code><br>
-<code>python manage.py migrate</code>
+---
 
-<h2>Static files collection</h2>
-<pre>open terminal and type</pre>
-<code>python manage.py collectstatic</code>
+## 🎯 Objectives
 
-<h2>Creating Superuser</h2>
-<pre>To create superuser open terminal and type</pre>
-<code>python manage.py createsuperuser</code>
+* Reduce food wastage by encouraging food donation.
+* Connect donors and recipients through a single platform.
+* Provide an easy-to-use system for managing food donation activities.
+* Promote community support and social responsibility.
 
-<h2> For password Reset functionality by email fill up the information in Your Project setting </h2>
-<code>EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'</code><br>
-<code>EMAIL_HOST = 'smtp.gmail.com'</code><br>
-<code>EMAIL_PORT = 587</code><br>
-<code>EMAIL_USE_TLS = True</code><br>
-<code>EMAIL_HOST_USER = 'your email'</code><br>
-<code>EMAIL_HOST_PASSWORD = 'your email password'</code><br>
+---
 
-<h2> To run the program in local server use the following command </h2>
-<code>python manage.py runserver</code>
+## ✨ Features
 
-<p>Then go to http://127.0.0.1:8000 in your browser</p>
+### User Management
 
-<h2>Project snapshot</h2>
-<h3>FoodBank Home Page</h3>
-<div align="center">
-    <img src="https://user-images.githubusercontent.com/19981097/54106748-5304f280-4401-11e9-8651-c8febbf0bd91.png" width="100%"</img> 
-</div>
+* User Registration
+* User Login and Authentication
+* Profile Management
+* Profile Picture Upload
 
-<h3>User Login Page</h3>
-<div align="center">
-    <img src="https://user-images.githubusercontent.com/19981097/54106807-80ea3700-4401-11e9-9446-f8fd7aa15b1f.png" width="100%"</img> 
-</div>
+### Food Donation Management
 
-<h3>User Registration Page</h3>
-<div align="center">
-    <img src="https://user-images.githubusercontent.com/19981097/54106864-b000a880-4401-11e9-92d4-8b743ade01ad.png" width="100%"</img> 
-</div>
+* Create Food Donation Posts
+* View Available Food Donations
+* Update Donation Details
+* Delete Donation Posts
 
-<h3>Dashboard Page</h3>
-<div align="center">
-    <img src="https://user-images.githubusercontent.com/19981097/54106920-e5a59180-4401-11e9-8f01-e79fe229ef78.png" width="100%"</img> 
-</div>
+### Community Interaction
 
-<h3>Profile Page</h3>
-<div align="center">
-    <img src="https://user-images.githubusercontent.com/19981097/54107006-1a194d80-4402-11e9-898a-1673e7ca5f31.png" width="100%"</img> 
-</div>
+* Like Donation Posts
+* Comment on Posts
+* View Recent Posts
 
-<h3>Create Post Page</h3>
-<div align="center">
-    <img src="https://user-images.githubusercontent.com/19981097/54107051-41701a80-4402-11e9-9139-ca71c74ef670.png" width="100%"</img> 
-</div>
+### Administration
 
-<h3>Post Details Page</h3>
-<div align="center">
-    <img src="https://user-images.githubusercontent.com/19981097/54107124-6e243200-4402-11e9-9f4c-20c1c83503e9.png" width="100%"</img> 
-</div>
+* Django Admin Panel
+* User and Content Management
 
-<h2>Author</h2>
-<blockquote>
-  Mahmudul alam<br>
-  Email: expelmahmud@gmail.com
-</blockquote>
+---
 
-<div align="center">
-    <h3>========Thank You !!!=========</h3>
-</div>
+## 🛠 Technologies Used
+
+### Frontend
+
+* HTML5
+* CSS3
+* Bootstrap
+
+### Backend
+
+* Python
+* Django
+
+### Database
+
+* SQLite
+
+### Additional Tools
+
+* Django Authentication System
+* Django ORM
+* Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```text
+FoodBank/
+├── FoodBank/
+├── accounts/
+├── restaurants/
+├── media/
+├── static/
+├── templates/
+├── manage.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🚀 Installation and Setup
+
+### Clone Repository
+
+```bash
+git clone https://github.com/janu63374/FoodBank.git
+cd FoodBank
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Apply Migrations
+
+```bash
+python manage.py migrate
+```
+
+### Run Development Server
+
+```bash
+python manage.py runserver
+```
+
+Open:
+
+```text
+http://127.0.0.1:8000/
+```
+
+---
+
+## 👩‍💻 Author
+
+**Janani S**
+
+* B.Sc. Computer Science
+* Bon Secours College for Women, Thanjavur
+* Python | Django | SQL | Web Development
+
+---
+
+## 📄 License
+
+This project is available for educational and learning purposes.
+
 
