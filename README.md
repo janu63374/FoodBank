@@ -133,8 +133,5 @@ http://127.0.0.1:8000/
 
 ---
 
-## 📄 License
-
-This project is available for educational and learning purposes.
 
 
